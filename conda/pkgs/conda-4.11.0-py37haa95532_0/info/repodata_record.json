@@ -1,0 +1,35 @@
+{
+  "build": "py37haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "conda-build >=3",
+    "cytoolz >=0.8.1",
+    "conda-content-trust >=0.1.1",
+    "conda-env >=2.6"
+  ],
+  "depends": [
+    "conda-package-handling >=1.3.0",
+    "menuinst >=1.4.11,<2",
+    "pycosat >=0.6.3",
+    "pyopenssl >=16.2.0",
+    "python >=3.7,<3.8.0a0",
+    "requests >=2.18.4,<3",
+    "ruamel_yaml >=0.11.14,<0.17",
+    "setuptools >=31.0.1"
+  ],
+  "features": "",
+  "fn": "conda-4.11.0-py37haa95532_0.conda",
+  "legacy_bz2_md5": "4992a8f2da24cc12ada1d88a7f8505b9",
+  "legacy_bz2_size": 17675222,
+  "license": "BSD-3-Clause",
+  "md5": "c942c4aaf77b3c3c7a31a27fcd5c6f31",
+  "name": "conda",
+  "sha256": "575038564bdb309f55650b7aae1ad2fe89ee91e27d3cebddeacd517145bad43b",
+  "size": 15126309,
+  "subdir": "win-64",
+  "timestamp": 1638988371195,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/conda-4.11.0-py37haa95532_0.conda",
+  "version": "4.11.0"
+}

@@ -1,0 +1,286 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "brotlipy >=0.6.0",
+    "certifi",
+    "cryptography >=1.3.4",
+    "idna >=2.0.0",
+    "pyopenssl >=0.14",
+    "pysocks >=1.5.6,<2.0,!=1.5.7",
+    "python >=3.6,<4.0"
+  ],
+  "extracted_package_dir": "E:\\interviews\\HSC chatbot\\Basic-Rag-Chatbot-HSC\\conda\\pkgs\\urllib3-1.26.7-pyhd3eb1b0_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/urllib3-1.26.7-py3.10.egg-info/PKG-INFO",
+    "Lib/site-packages/urllib3-1.26.7-py3.10.egg-info/SOURCES.txt",
+    "Lib/site-packages/urllib3-1.26.7-py3.10.egg-info/dependency_links.txt",
+    "Lib/site-packages/urllib3-1.26.7-py3.10.egg-info/installed-files.txt",
+    "Lib/site-packages/urllib3-1.26.7-py3.10.egg-info/requires.txt",
+    "Lib/site-packages/urllib3-1.26.7-py3.10.egg-info/top_level.txt",
+    "Lib/site-packages/urllib3/__init__.py",
+    "Lib/site-packages/urllib3/_collections.py",
+    "Lib/site-packages/urllib3/_version.py",
+    "Lib/site-packages/urllib3/connection.py",
+    "Lib/site-packages/urllib3/connectionpool.py",
+    "Lib/site-packages/urllib3/contrib/__init__.py",
+    "Lib/site-packages/urllib3/contrib/_appengine_environ.py",
+    "Lib/site-packages/urllib3/contrib/_securetransport/__init__.py",
+    "Lib/site-packages/urllib3/contrib/_securetransport/bindings.py",
+    "Lib/site-packages/urllib3/contrib/_securetransport/low_level.py",
+    "Lib/site-packages/urllib3/contrib/appengine.py",
+    "Lib/site-packages/urllib3/contrib/ntlmpool.py",
+    "Lib/site-packages/urllib3/contrib/pyopenssl.py",
+    "Lib/site-packages/urllib3/contrib/securetransport.py",
+    "Lib/site-packages/urllib3/contrib/socks.py",
+    "Lib/site-packages/urllib3/exceptions.py",
+    "Lib/site-packages/urllib3/fields.py",
+    "Lib/site-packages/urllib3/filepost.py",
+    "Lib/site-packages/urllib3/packages/__init__.py",
+    "Lib/site-packages/urllib3/packages/backports/__init__.py",
+    "Lib/site-packages/urllib3/packages/backports/makefile.py",
+    "Lib/site-packages/urllib3/packages/six.py",
+    "Lib/site-packages/urllib3/packages/ssl_match_hostname/__init__.py",
+    "Lib/site-packages/urllib3/packages/ssl_match_hostname/_implementation.py",
+    "Lib/site-packages/urllib3/poolmanager.py",
+    "Lib/site-packages/urllib3/request.py",
+    "Lib/site-packages/urllib3/response.py",
+    "Lib/site-packages/urllib3/util/__init__.py",
+    "Lib/site-packages/urllib3/util/connection.py",
+    "Lib/site-packages/urllib3/util/proxy.py",
+    "Lib/site-packages/urllib3/util/queue.py",
+    "Lib/site-packages/urllib3/util/request.py",
+    "Lib/site-packages/urllib3/util/response.py",
+    "Lib/site-packages/urllib3/util/retry.py",
+    "Lib/site-packages/urllib3/util/ssl_.py",
+    "Lib/site-packages/urllib3/util/ssltransport.py",
+    "Lib/site-packages/urllib3/util/timeout.py",
+    "Lib/site-packages/urllib3/util/url.py",
+    "Lib/site-packages/urllib3/util/wait.py",
+    "Lib/site-packages/urllib3/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/urllib3/__pycache__/_collections.cpython-37.pyc",
+    "Lib/site-packages/urllib3/__pycache__/_version.cpython-37.pyc",
+    "Lib/site-packages/urllib3/__pycache__/connection.cpython-37.pyc",
+    "Lib/site-packages/urllib3/__pycache__/connectionpool.cpython-37.pyc",
+    "Lib/site-packages/urllib3/contrib/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/urllib3/contrib/__pycache__/_appengine_environ.cpython-37.pyc",
+    "Lib/site-packages/urllib3/contrib/_securetransport/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/urllib3/contrib/_securetransport/__pycache__/bindings.cpython-37.pyc",
+    "Lib/site-packages/urllib3/contrib/_securetransport/__pycache__/low_level.cpython-37.pyc",
+    "Lib/site-packages/urllib3/contrib/__pycache__/appengine.cpython-37.pyc",
+    "Lib/site-packages/urllib3/contrib/__pycache__/ntlmpool.cpython-37.pyc",
+    "Lib/site-packages/urllib3/contrib/__pycache__/pyopenssl.cpython-37.pyc",
+    "Lib/site-packages/urllib3/contrib/__pycache__/securetransport.cpython-37.pyc",
+    "Lib/site-packages/urllib3/contrib/__pycache__/socks.cpython-37.pyc",
+    "Lib/site-packages/urllib3/__pycache__/exceptions.cpython-37.pyc",
+    "Lib/site-packages/urllib3/__pycache__/fields.cpython-37.pyc",
+    "Lib/site-packages/urllib3/__pycache__/filepost.cpython-37.pyc",
+    "Lib/site-packages/urllib3/packages/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/urllib3/packages/backports/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/urllib3/packages/backports/__pycache__/makefile.cpython-37.pyc",
+    "Lib/site-packages/urllib3/packages/__pycache__/six.cpython-37.pyc",
+    "Lib/site-packages/urllib3/packages/ssl_match_hostname/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/urllib3/packages/ssl_match_hostname/__pycache__/_implementation.cpython-37.pyc",
+    "Lib/site-packages/urllib3/__pycache__/poolmanager.cpython-37.pyc",
+    "Lib/site-packages/urllib3/__pycache__/request.cpython-37.pyc",
+    "Lib/site-packages/urllib3/__pycache__/response.cpython-37.pyc",
+    "Lib/site-packages/urllib3/util/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/urllib3/util/__pycache__/connection.cpython-37.pyc",
+    "Lib/site-packages/urllib3/util/__pycache__/proxy.cpython-37.pyc",
+    "Lib/site-packages/urllib3/util/__pycache__/queue.cpython-37.pyc",
+    "Lib/site-packages/urllib3/util/__pycache__/request.cpython-37.pyc",
+    "Lib/site-packages/urllib3/util/__pycache__/response.cpython-37.pyc",
+    "Lib/site-packages/urllib3/util/__pycache__/retry.cpython-37.pyc",
+    "Lib/site-packages/urllib3/util/__pycache__/ssl_.cpython-37.pyc",
+    "Lib/site-packages/urllib3/util/__pycache__/ssltransport.cpython-37.pyc",
+    "Lib/site-packages/urllib3/util/__pycache__/timeout.cpython-37.pyc",
+    "Lib/site-packages/urllib3/util/__pycache__/url.cpython-37.pyc",
+    "Lib/site-packages/urllib3/util/__pycache__/wait.cpython-37.pyc"
+  ],
+  "fn": "urllib3-1.26.7-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "9f82a6d1ee4c69359f6cc7e169602eb1",
+  "legacy_bz2_size": 106840,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "E:\\interviews\\HSC chatbot\\Basic-Rag-Chatbot-HSC\\conda\\pkgs\\urllib3-1.26.7-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "e17184b31cca4681ee0ab27abf546987",
+  "name": "urllib3",
+  "noarch": "python",
+  "package_tarball_full_path": "E:\\interviews\\HSC chatbot\\Basic-Rag-Chatbot-HSC\\conda\\pkgs\\urllib3-1.26.7-pyhd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/urllib3/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/__pycache__/_collections.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/__pycache__/_version.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/__pycache__/connection.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/__pycache__/connectionpool.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/contrib/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/contrib/__pycache__/_appengine_environ.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/contrib/_securetransport/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/contrib/_securetransport/__pycache__/bindings.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/contrib/_securetransport/__pycache__/low_level.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/contrib/__pycache__/appengine.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/contrib/__pycache__/ntlmpool.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/contrib/__pycache__/pyopenssl.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/contrib/__pycache__/securetransport.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/contrib/__pycache__/socks.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/__pycache__/exceptions.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/__pycache__/fields.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/__pycache__/filepost.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/packages/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/packages/backports/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/packages/backports/__pycache__/makefile.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/packages/__pycache__/six.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/packages/ssl_match_hostname/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/packages/ssl_match_hostname/__pycache__/_implementation.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/__pycache__/poolmanager.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/__pycache__/request.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/__pycache__/response.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/util/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/util/__pycache__/connection.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/util/__pycache__/proxy.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/util/__pycache__/queue.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/util/__pycache__/request.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/util/__pycache__/response.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/util/__pycache__/retry.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/util/__pycache__/ssl_.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/util/__pycache__/ssltransport.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/util/__pycache__/timeout.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/util/__pycache__/url.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/urllib3/util/__pycache__/wait.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "urllib3==1.26.7=pyhd3eb1b0_0",
+  "sha256": "ae4afaa0d8aa8985b966413292f75b84614ab0a54768a25c5e542bacf9bf3e0b",
+  "size": 113473,
+  "subdir": "noarch",
+  "timestamp": 1633616671240,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/urllib3-1.26.7-pyhd3eb1b0_0.conda",
+  "version": "1.26.7"
+}

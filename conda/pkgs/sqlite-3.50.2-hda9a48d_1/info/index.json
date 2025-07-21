@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "hda9a48d_1",
+  "build_number": 1,
+  "depends": [
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30133"
+  ],
+  "license": "blessing",
+  "license_family": "Other",
+  "name": "sqlite",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1752773667780,
+  "version": "3.50.2"
+}

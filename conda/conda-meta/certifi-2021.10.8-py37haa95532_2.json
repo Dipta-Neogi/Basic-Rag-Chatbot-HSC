@@ -1,0 +1,49 @@
+{
+  "build": "py37haa95532_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "E:\\interviews\\HSC chatbot\\Basic-Rag-Chatbot-HSC\\conda\\pkgs\\certifi-2021.10.8-py37haa95532_2",
+  "features": "",
+  "files": [
+    "Lib/site-packages/certifi-2021.10.8-py3.7.egg-info/PKG-INFO",
+    "Lib/site-packages/certifi-2021.10.8-py3.7.egg-info/SOURCES.txt",
+    "Lib/site-packages/certifi-2021.10.8-py3.7.egg-info/dependency_links.txt",
+    "Lib/site-packages/certifi-2021.10.8-py3.7.egg-info/installed-files.txt",
+    "Lib/site-packages/certifi-2021.10.8-py3.7.egg-info/not-zip-safe",
+    "Lib/site-packages/certifi-2021.10.8-py3.7.egg-info/top_level.txt",
+    "Lib/site-packages/certifi/__init__.py",
+    "Lib/site-packages/certifi/__main__.py",
+    "Lib/site-packages/certifi/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/certifi/__pycache__/__main__.cpython-37.pyc",
+    "Lib/site-packages/certifi/__pycache__/core.cpython-37.pyc",
+    "Lib/site-packages/certifi/cacert.pem",
+    "Lib/site-packages/certifi/core.py"
+  ],
+  "fn": "certifi-2021.10.8-py37haa95532_2.conda",
+  "legacy_bz2_md5": "52f61048557424e269326b236bb26d1c",
+  "legacy_bz2_size": 160048,
+  "license": "MPL-2.0",
+  "link": {
+    "source": "E:\\interviews\\HSC chatbot\\Basic-Rag-Chatbot-HSC\\conda\\pkgs\\certifi-2021.10.8-py37haa95532_2",
+    "type": 1
+  },
+  "md5": "bc597483d9dadaf1d36f4ff4ec29e973",
+  "name": "certifi",
+  "package_tarball_full_path": "E:\\interviews\\HSC chatbot\\Basic-Rag-Chatbot-HSC\\conda\\pkgs\\certifi-2021.10.8-py37haa95532_2.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "certifi==2021.10.8=py37haa95532_2",
+  "sha256": "f31f83b5dee4bd5da8c06b71f6a6c26129b92506471b9158c596faada204f360",
+  "size": 156133,
+  "subdir": "win-64",
+  "timestamp": 1641900203187,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/certifi-2021.10.8-py37haa95532_2.conda",
+  "version": "2021.10.8"
+}

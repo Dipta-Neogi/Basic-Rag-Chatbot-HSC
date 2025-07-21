@@ -1,0 +1,38 @@
+==> 2022-01-27 14:10:19 <==
+# cmd: build.py --product miniconda --python 3.7 --installer-type exe --output-dir C:\ci\containers\0000025olvc\tmp\build\0e5aa70a\output-installer/220127/ --standalone C:\ci\containers\0000025olvc\tmp\build\0e5aa70a\mc/standalone_conda/conda.exe
++defaults::python-3.7.11-h6244533_0
++defaults::ca-certificates-2021.10.26-haa95532_2
++defaults::vs2015_runtime-14.27.29016-h5e58377_2
++defaults::vc-14.2-h21ff451_1
++defaults::openssl-1.1.1m-h2bbff1b_0
++defaults::sqlite-3.37.0-h2bbff1b_0
++defaults::yaml-0.2.5-he774522_0
++defaults::pywin32-302-py37h827c3e9_1
++defaults::menuinst-1.4.18-py37h59b6b97_0
++defaults::certifi-2021.10.8-py37haa95532_2
++defaults::console_shortcut-0.1.1-4
++defaults::powershell_shortcut-0.0.1-3
++defaults::pycosat-0.6.3-py37h2bbff1b_0
++defaults::ruamel_yaml-0.15.100-py37h2bbff1b_0
++defaults::win_inet_pton-1.1.0-py37haa95532_0
++defaults::wincertstore-0.2-py37haa95532_2
++defaults::pysocks-1.7.1-py37_1
++defaults::setuptools-58.0.4-py37haa95532_0
++defaults::charset-normalizer-2.0.4-pyhd3eb1b0_0
++defaults::idna-3.3-pyhd3eb1b0_0
++defaults::pycparser-2.21-pyhd3eb1b0_0
++defaults::cffi-1.15.0-py37h2bbff1b_0
++defaults::brotlipy-0.7.0-py37h2bbff1b_1003
++defaults::cryptography-36.0.0-py37h21b164f_0
++defaults::pyopenssl-21.0.0-pyhd3eb1b0_1
++defaults::requests-2.27.1-pyhd3eb1b0_0
++defaults::six-1.16.0-pyhd3eb1b0_0
++defaults::conda-content-trust-0.1.1-pyhd3eb1b0_0
++defaults::tqdm-4.62.3-pyhd3eb1b0_1
++defaults::conda-package-handling-1.7.3-py37h8cc25b3_1
++defaults::conda-4.11.0-py37haa95532_0
++defaults::urllib3-1.26.7-pyhd3eb1b0_0
++defaults::wheel-0.37.1-pyhd3eb1b0_0
++defaults::pip-21.2.4-py37haa95532_0
+# update specs: ['conda', 'python=3.7', 'menuinst', 'console_shortcut', 'powershell_shortcut']
+

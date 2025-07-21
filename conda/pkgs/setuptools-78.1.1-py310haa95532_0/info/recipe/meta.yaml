@@ -1,0 +1,76 @@
+# This file created by conda-build 25.4.2
+# meta.yaml template originally from:
+# C:\b\abs_51sbdgs56c\clone\recipe, last modified Wed Apr 30 15:51:54 2025
+# ------------------------------------------------
+
+package:
+  name: setuptools
+  version: 78.1.1
+source:
+  patches:
+    - patches/0002-disable-downloads-inside-conda-build.patch
+    - patches/0021-Add-d1trimfile-SRC_DIR-to-make-pdbs-more-relocatable.patch
+  sha256: fcc17fd9cd898242f6b4adfaca46137a9edef687f43e6f78469692a5e70d851d
+  url: https://pypi.io/packages/source/s/setuptools/setuptools-78.1.1.tar.gz
+build:
+  missing_dso_whitelist:
+    - $RPATH/MSVCR71.dll
+    - $RPATH/MSVCR80.dll
+  number: '0'
+  string: py310haa95532_0
+requirements:
+  build:
+    - m2-msys2-runtime 2.5.0.17080.65c939c 3
+    - m2-patch 2.7.5 2
+    - msys2-conda-epoch 20160418 1
+  host:
+    - bzip2 1.0.8 h2bbff1b_6
+    - ca-certificates 2025.2.25 haa95532_0
+    - libffi 3.4.4 hd77b12b_1
+    - openssl 3.0.16 h3f729d1_0
+    - python 3.10.16 h4607a30_1
+    - sqlite 3.45.3 h2bbff1b_0
+    - tk 8.6.14 h0416ee5_0
+    - tzdata 2025a h04d1e81_0
+    - vc 14.42 haa95532_5
+    - vs2015_runtime 14.42.34433 hbfb602d_5
+    - xz 5.6.4 h4754444_1
+    - zlib 1.2.13 h8cc25b3_1
+  run:
+    - python >=3.10,<3.11.0a0
+test:
+  commands:
+    - pip check
+  imports:
+    - pkg_resources
+    - setuptools
+  requires:
+    - pip
+about:
+  description: 'Setuptools is a fully-featured, actively-maintained, and stable library
+
+    designed to facilitate packaging Python projects.
+
+    '
+  dev_url: https://github.com/pypa/setuptools
+  doc_url: https://setuptools.pypa.io
+  home: https://github.com/pypa/setuptools
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Download, build, install, upgrade, and uninstall Python packages
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 5105f523-d5f3-4ffd-afb7-3a4d9a8774e5
+  recipe-maintainers:
+    - isuruf
+    - jakirkham
+    - msarahan
+    - nicoddemus
+    - ocefpaf
+  remote_url: git@github.com:AnacondaRecipes/setuptools-feedstock.git
+  sha: 69d108e5f52fb34e4da7901409ad9ed160db0d0d
+  skip-lints:
+    - missing_python_build_tool
+    - missing_wheel

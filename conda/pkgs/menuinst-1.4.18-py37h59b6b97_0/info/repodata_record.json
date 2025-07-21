@@ -1,0 +1,27 @@
+{
+  "build": "py37h59b6b97_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "pywin32",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "menuinst-1.4.18-py37h59b6b97_0.conda",
+  "legacy_bz2_md5": "785013ff4b93fbe5930bcc74962d137f",
+  "legacy_bz2_size": 101137,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "32d54f0e69ac87c20b17a1c8c1f6153f",
+  "name": "menuinst",
+  "sha256": "e09b4cadd81cfc929d9a057fc9868f2068c30e39bfcf82bb3d140da3d6b20843",
+  "size": 97735,
+  "subdir": "win-64",
+  "timestamp": 1631733541503,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/menuinst-1.4.18-py37h59b6b97_0.conda",
+  "version": "1.4.18"
+}

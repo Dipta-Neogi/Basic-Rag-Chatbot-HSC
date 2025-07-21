@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py37h827c3e9_1",
+  "build_number": 1,
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "vc >=14.2,<15.0a0",
+    "vs2015_runtime >=14.27.29016,<15.0a0"
+  ],
+  "license": "PSF-2.0",
+  "name": "pywin32",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1639498480340,
+  "version": "302"
+}

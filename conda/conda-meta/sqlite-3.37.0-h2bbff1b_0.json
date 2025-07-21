@@ -1,0 +1,42 @@
+{
+  "build": "h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "E:\\interviews\\HSC chatbot\\Basic-Rag-Chatbot-HSC\\conda\\pkgs\\sqlite-3.37.0-h2bbff1b_0",
+  "features": "",
+  "files": [
+    "Library/bin/sqlite3.dll",
+    "Library/bin/sqlite3.exe",
+    "Library/include/sqlite3.h",
+    "Library/include/sqlite3ext.h",
+    "Library/lib/sqlite3.lib"
+  ],
+  "fn": "sqlite-3.37.0-h2bbff1b_0.conda",
+  "legacy_bz2_md5": "c49559952fe1ac599c39fea10fbdf4d1",
+  "legacy_bz2_size": 1270321,
+  "license": "Unlicense",
+  "link": {
+    "source": "E:\\interviews\\HSC chatbot\\Basic-Rag-Chatbot-HSC\\conda\\pkgs\\sqlite-3.37.0-h2bbff1b_0",
+    "type": 1
+  },
+  "md5": "e9bcf603852706bb6fafa7c72f1cb320",
+  "name": "sqlite",
+  "package_tarball_full_path": "E:\\interviews\\HSC chatbot\\Basic-Rag-Chatbot-HSC\\conda\\pkgs\\sqlite-3.37.0-h2bbff1b_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "sqlite==3.37.0=h2bbff1b_0",
+  "sha256": "70db4c683cd9d60f9f083c54c8df80c027dae65ef0cc149420cf617efc1a1d94",
+  "size": 804215,
+  "subdir": "win-64",
+  "timestamp": 1640179925449,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/sqlite-3.37.0-h2bbff1b_0.conda",
+  "version": "3.37.0"
+}

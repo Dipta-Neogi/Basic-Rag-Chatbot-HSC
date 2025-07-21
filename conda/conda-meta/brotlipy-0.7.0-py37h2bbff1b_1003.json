@@ -1,0 +1,53 @@
+{
+  "build": "py37h2bbff1b_1003",
+  "build_number": 1003,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "cffi >=1.0.0",
+    "python >=3.7,<3.8.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "E:\\interviews\\HSC chatbot\\Basic-Rag-Chatbot-HSC\\conda\\pkgs\\brotlipy-0.7.0-py37h2bbff1b_1003",
+  "features": "",
+  "files": [
+    "Lib/site-packages/brotli/__init__.py",
+    "Lib/site-packages/brotli/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/brotli/__pycache__/brotli.cpython-37.pyc",
+    "Lib/site-packages/brotli/__pycache__/build.cpython-37.pyc",
+    "Lib/site-packages/brotli/_brotli.pyd",
+    "Lib/site-packages/brotli/brotli.py",
+    "Lib/site-packages/brotli/build.py",
+    "Lib/site-packages/brotlipy-0.7.0-py3.7.egg-info/PKG-INFO",
+    "Lib/site-packages/brotlipy-0.7.0-py3.7.egg-info/SOURCES.txt",
+    "Lib/site-packages/brotlipy-0.7.0-py3.7.egg-info/dependency_links.txt",
+    "Lib/site-packages/brotlipy-0.7.0-py3.7.egg-info/not-zip-safe",
+    "Lib/site-packages/brotlipy-0.7.0-py3.7.egg-info/requires.txt",
+    "Lib/site-packages/brotlipy-0.7.0-py3.7.egg-info/top_level.txt"
+  ],
+  "fn": "brotlipy-0.7.0-py37h2bbff1b_1003.conda",
+  "legacy_bz2_md5": "e8e75aec2c0d453abe233cd16ffd64ef",
+  "legacy_bz2_size": 380497,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "E:\\interviews\\HSC chatbot\\Basic-Rag-Chatbot-HSC\\conda\\pkgs\\brotlipy-0.7.0-py37h2bbff1b_1003",
+    "type": 1
+  },
+  "md5": "ffbb6e1c6819181abfd4256b83a2199d",
+  "name": "brotlipy",
+  "package_tarball_full_path": "E:\\interviews\\HSC chatbot\\Basic-Rag-Chatbot-HSC\\conda\\pkgs\\brotlipy-0.7.0-py37h2bbff1b_1003.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "brotlipy==0.7.0=py37h2bbff1b_1003",
+  "sha256": "cba75a50403ac4e2e25bbd4fc641496d7a9afad60286cf92330b2cc8e6f94358",
+  "size": 345080,
+  "subdir": "win-64",
+  "timestamp": 1605535235313,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/brotlipy-0.7.0-py37h2bbff1b_1003.conda",
+  "version": "0.7.0"
+}

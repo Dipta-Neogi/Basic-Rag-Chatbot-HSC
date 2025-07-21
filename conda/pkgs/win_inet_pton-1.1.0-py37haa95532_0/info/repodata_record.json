@@ -1,0 +1,23 @@
+{
+  "build": "py37haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "win_inet_pton-1.1.0-py37haa95532_0.conda",
+  "legacy_bz2_md5": "fadb744a16e14af7d5486a7ad91ffd68",
+  "legacy_bz2_size": 34009,
+  "license": "PUBLIC-DOMAIN",
+  "md5": "0f9d89066845fed34c60f71dbc792f4c",
+  "name": "win_inet_pton",
+  "sha256": "ebf678813ae30c8d219b7cb320a7ac267e07ed2f62ea098d1324e2a9a95f1f28",
+  "size": 35540,
+  "subdir": "win-64",
+  "timestamp": 1605306211668,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/win_inet_pton-1.1.0-py37haa95532_0.conda",
+  "version": "1.1.0"
+}

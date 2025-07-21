@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "h3f729d1_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "ca-certificates",
+    "vc >=14.2,<15.0a0",
+    "vs2015_runtime >=14.29.30133,<15.0a0"
+  ],
+  "features": "",
+  "fn": "openssl-3.0.16-h3f729d1_0.conda",
+  "legacy_bz2_md5": "e071cd2b74e888dd3aef739ee4060bc0",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "5ceb57e424ffe9918ba8f8af4fcc936a",
+  "name": "openssl",
+  "platform": "win32",
+  "sha256": "27941fbec3fab999105c4a26cd999318b92da39031b1b4c15872a251e436a970",
+  "size": 8195174,
+  "subdir": "win-64",
+  "timestamp": 1740991970485,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/openssl-3.0.16-h3f729d1_0.conda",
+  "version": "3.0.16"
+}
