@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "hc70643c_0",
+  "build_number": 0,
+  "depends": [
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "license": "ISC",
+  "name": "libsodium",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1716828757533,
+  "version": "1.0.20"
+}

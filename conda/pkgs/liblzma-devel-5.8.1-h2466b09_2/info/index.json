@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "h2466b09_2",
+  "build_number": 2,
+  "depends": [
+    "liblzma 5.8.1 h2466b09_2",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "license": "0BSD",
+  "name": "liblzma-devel",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1749230637001,
+  "version": "5.8.1"
+}

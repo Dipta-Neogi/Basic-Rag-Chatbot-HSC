@@ -1,0 +1,55 @@
+{
+  "paths": [
+    {
+      "_path": "Library/include/zconf.h",
+      "path_type": "hardlink",
+      "sha256": "b4962930aabbbc4b54a67220b4b3ed2cae69a13688c06a564bda1bc7429d2ab2",
+      "size_in_bytes": 17096
+    },
+    {
+      "_path": "Library/include/zlib.h",
+      "path_type": "hardlink",
+      "sha256": "8a5579af72ea4f427ff00a4150f0ccb3fc5c1e4379f726e101133b1ab9fc600c",
+      "size_in_bytes": 96829
+    },
+    {
+      "_path": "Library/lib/pkgconfig/zlib.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "D:/bld/zlib-split_1727963261414/_h_env",
+      "sha256": "e1518a2c9f96ee36c6d21607a99d187cac0a0bd050a6cbfdc856c1724fa02473",
+      "size_in_bytes": 454
+    },
+    {
+      "_path": "Library/lib/z.lib",
+      "path_type": "hardlink",
+      "sha256": "d64c1b220e866c18185901c49f2f8e24924b810368da50b164f05bba0e83f546",
+      "size_in_bytes": 16638
+    },
+    {
+      "_path": "Library/lib/zdll.lib",
+      "path_type": "hardlink",
+      "sha256": "d64c1b220e866c18185901c49f2f8e24924b810368da50b164f05bba0e83f546",
+      "size_in_bytes": 16638
+    },
+    {
+      "_path": "Library/lib/zlib.lib",
+      "path_type": "hardlink",
+      "sha256": "d64c1b220e866c18185901c49f2f8e24924b810368da50b164f05bba0e83f546",
+      "size_in_bytes": 16638
+    },
+    {
+      "_path": "Library/lib/zlibstatic.lib",
+      "path_type": "hardlink",
+      "sha256": "f18e3553d8677a0b2c9764c53c7bfa0f7b0e014939b818203cb96edcda285ec6",
+      "size_in_bytes": 189086
+    },
+    {
+      "_path": "Library/share/man/man3/zlib.3",
+      "path_type": "hardlink",
+      "sha256": "5aadb3f129c4c7e29f28bb6c5954dea061df3046d0fe3e134aff2ef4a217b1d6",
+      "size_in_bytes": 4476
+    }
+  ],
+  "paths_version": 1
+}

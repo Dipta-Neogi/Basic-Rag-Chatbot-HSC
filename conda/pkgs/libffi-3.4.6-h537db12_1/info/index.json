@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "h537db12_1",
+  "build_number": 1,
+  "depends": [
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "license": "MIT",
+  "name": "libffi",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1743435053850,
+  "version": "3.4.6"
+}

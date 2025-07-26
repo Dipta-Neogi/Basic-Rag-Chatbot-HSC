@@ -1,0 +1,8 @@
+{
+  "with_icu": "false",
+  "channel_targets": "conda-forge main",
+  "c_stdlib": "vs",
+  "c_compiler": "vs2022",
+  "libsqlite": "3",
+  "target_platform": "win-64"
+}

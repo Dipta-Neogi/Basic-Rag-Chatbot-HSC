@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "ha9f60a1_7",
+  "build_number": 7,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "krb5 >=1.21.3,<1.22.0a0",
+    "libsodium >=1.0.20,<1.0.21.0a0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "features": "",
+  "fn": "zeromq-4.3.5-ha9f60a1_7.conda",
+  "license": "MPL-2.0",
+  "license_family": "MOZILLA",
+  "md5": "e03f2c245a5ee6055752465519363b1c",
+  "name": "zeromq",
+  "platform": "win32",
+  "sha256": "15cc8e2162d0a33ffeb3f7b7c7883fd830c54a4b1be6a4b8c7ee1f4fef0088fb",
+  "size": 2527503,
+  "subdir": "win-64",
+  "timestamp": 1731585151036,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/zeromq-4.3.5-ha9f60a1_7.conda",
+  "version": "4.3.5"
+}

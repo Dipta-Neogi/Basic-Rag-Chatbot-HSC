@@ -1,0 +1,14 @@
+{
+  "build": "pyhe01879c_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.9",
+    "python"
+  ],
+  "license": "PSF-2.0",
+  "name": "typing_extensions",
+  "noarch": "python",
+  "subdir": "noarch",
+  "timestamp": 1751643513473,
+  "version": "4.14.1"
+}

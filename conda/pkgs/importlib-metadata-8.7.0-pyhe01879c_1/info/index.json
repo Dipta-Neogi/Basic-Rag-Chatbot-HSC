@@ -1,0 +1,15 @@
+{
+  "build": "pyhe01879c_1",
+  "build_number": 1,
+  "depends": [
+    "python >=3.9",
+    "zipp >=3.20",
+    "python"
+  ],
+  "license": "Apache-2.0",
+  "name": "importlib-metadata",
+  "noarch": "python",
+  "subdir": "noarch",
+  "timestamp": 1747934053147,
+  "version": "8.7.0"
+}

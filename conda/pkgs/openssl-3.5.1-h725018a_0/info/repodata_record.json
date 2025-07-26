@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "h725018a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "ca-certificates",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "features": "",
+  "fn": "openssl-3.5.1-h725018a_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "d124fc2fd7070177b5e2450627f8fc1a",
+  "name": "openssl",
+  "platform": "win32",
+  "sha256": "2b2eb73b0661ff1aed55576a3d38614852b5d857c2fa9205ac115820c523306c",
+  "size": 9327033,
+  "subdir": "win-64",
+  "timestamp": 1751392489008,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/openssl-3.5.1-h725018a_0.conda",
+  "version": "3.5.1"
+}

@@ -1,0 +1,45 @@
+- python:
+    imports:
+    - IPython
+    python_version:
+    - 3.10.*
+    - 3.13.*
+- script:
+    content: |-
+      ipython --version
+      ipython3 --version
+      ipython --help
+      pygmentize -L | grep ipython
+  requirements:
+    run:
+    - python 3.10.*
+    - m2-grep
+- script:
+    content: |-
+      mypy -p IPython
+      python run_test.py
+    cwd: etc/conda/test-files/ipython/2
+  requirements:
+    run:
+    - python 3.10.*
+    - mypy
+    - types-decorator
+    - pytest-cov
+    - black
+    - curio
+    - matplotlib-base !=3.2.0
+    - nbformat
+    - numpy >=1.23
+    - pandas
+    - pickleshare
+    - pygments
+    - pytest
+    - pytest-asyncio <0.22
+    - testpath
+    - trio
+  files:
+    source:
+    - tests/
+    - pyproject.toml
+    recipe:
+    - run_test.py

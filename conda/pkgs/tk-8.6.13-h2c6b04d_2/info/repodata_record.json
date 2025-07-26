@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "h2c6b04d_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "features": "",
+  "fn": "tk-8.6.13-h2c6b04d_2.conda",
+  "license": "TCL",
+  "license_family": "BSD",
+  "md5": "ebd0e761de9aa879a51d22cc721bd095",
+  "name": "tk",
+  "platform": "win32",
+  "sha256": "e3614b0eb4abcc70d98eae159db59d9b4059ed743ef402081151a948dce95896",
+  "size": 3466348,
+  "subdir": "win-64",
+  "timestamp": 1748388121356,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/tk-8.6.13-h2c6b04d_2.conda",
+  "version": "8.6.13"
+}

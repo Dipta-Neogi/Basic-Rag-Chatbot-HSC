@@ -1,0 +1,81 @@
+# This file created by conda-build 25.5.0
+# meta.yaml template originally from:
+# C:\b\abs_6cl6y8nskc\clone\recipe, last modified Tue Jul 22 10:25:52 2025
+# ------------------------------------------------
+
+package:
+  name: openssl
+  version: 3.0.17
+source:
+  url: https://github.com/openssl/openssl/releases/download/openssl-3.0.17/openssl-3.0.17.tar.gz
+  sha256: dfdd77e4ea1b57ff3a6dbde6b0bdc3f31db5ac99e7fdd4eaf9e1fbb6ec2db8ce
+build:
+  number: '0'
+  run_exports:
+    - openssl >=3.0.17,<4.0a0
+  detect_binary_files_with_prefix: true
+  binary_has_prefix_files: null
+  string: h35632f6_0
+requirements:
+  build:
+    - nasm 2.14.02 h7edc060_0
+    - perl 5.38.2.2 0_haa95532_strawberry
+    - ucrt 10.0.22621.0 haa95532_0
+    - vc14_runtime 14.44.35208 h4927774_10
+    - vs2015_runtime 14.44.35208 ha6b5a95_10
+    - vs2019_win-64 19.29.30159 hd50ca63_10
+    - vswhere 2.8.4 haa95532_0
+  run:
+    - ca-certificates
+    - ucrt >=10.0.20348.0
+    - vc >=14.2,<15
+    - vc14_runtime >=14.29.30133
+  host:
+    - ucrt 10.0.22621.0 haa95532_0
+    - vc 14.3 h2df5915_10
+    - vc14_runtime 14.44.35208 h4927774_10
+test:
+  requires:
+    - pkg-config
+    - python 3.9.*
+  commands:
+    - copy NUL checksum.txt
+    - openssl sha256 checksum.txt
+    - openssl ecparam -name prime256v1
+    - if "%SSL_CERT_FILE%"=="" exit 1
+    - if not exist "%SSL_CERT_FILE%" exit 1
+    - python -c "import urllib.request; urllib.request.urlopen('https://pypi.org')"
+    - pkg-config --print-errors --exact-version "3.0.17" openssl
+about:
+  home: https://www.openssl.org/
+  license_file: LICENSE.txt
+  license: Apache-2.0
+  license_family: Apache
+  summary: OpenSSL is an open-source implementation of the SSL and TLS protocols
+  description: 'OpenSSL is a robust, commercial-grade, full-featured Open Source Toolkit
+
+    for the Transport Layer Security (TLS) protocol formerly known as the
+
+    Secure Sockets Layer (SSL) protocol. The protocol implementation is based
+
+    on a full-strength general purpose cryptographic library, which can also
+
+    be used stand-alone.
+
+    '
+  dev_url: https://github.com/openssl/openssl
+  doc_url: https://www.openssl.org/docs/man3.0/
+extra:
+  recipe-maintainers:
+    - carlodri
+    - chenghlee
+    - jakirkham
+    - jjhelmus
+    - msarahan
+    - ocefpaf
+    - pelson
+  final: true
+  copy_test_source_files: true
+  sha: 6d554b8d74cfd3cd5076f9100e76c40d0431c964
+  remote_url: git@github.com:AnacondaRecipes/openssl-feedstock.git
+  flow_run_id: 6c8240d8-c203-4931-b662-0df90e5857a8

@@ -1,0 +1,11 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/libexpat.dll",
+      "path_type": "hardlink",
+      "sha256": "ecdd32d69dc7d666caf496c864e4bfd42542fc32688ede2e7f8d8037cefc2415",
+      "size_in_bytes": 409600
+    }
+  ],
+  "paths_version": 1
+}

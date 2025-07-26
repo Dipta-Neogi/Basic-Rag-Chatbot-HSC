@@ -1,0 +1,15 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "description": "A set of extension modules that provides access to many of the Windows API functions.",
+  "dev_url": "https://github.com/mhammond/pywin32",
+  "extra": {
+    "flow_run_id": "azure_20250715.4.1",
+    "remote_url": "https://github.com/conda-forge/pywin32-feedstock",
+    "sha": "3cb373ddd277ddd1e2f2a582755282f115161dd9"
+  },
+  "home": "https://github.com/mhammond/pywin32",
+  "license": "PSF-2.0",
+  "summary": "Python extensions for Windows"
+}

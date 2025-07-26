@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "hac47afa_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "libexpat 2.7.1 hac47afa_0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "features": "",
+  "fn": "expat-2.7.1-hac47afa_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "48e89745802e32edd5fa6faa03ebf513",
+  "name": "expat",
+  "platform": "win32",
+  "sha256": "43a850ef7a651ac5579f5edd5a1d50a2e9c57dedecc308211e5282a93dbcbdc6",
+  "size": 234623,
+  "subdir": "win-64",
+  "timestamp": 1752719798470,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/expat-2.7.1-hac47afa_0.conda",
+  "version": "2.7.1"
+}

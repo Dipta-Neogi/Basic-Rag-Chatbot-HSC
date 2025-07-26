@@ -1,11 +1,32 @@
 # Basic-Rag-Chatbot-HSC
 For HSC students who wants help with their studies
 
-project repo:https://github.com
+Backend Workflow
+1. PDF Loader:
+- Loads and splits content using RecursiveCharacterTextSplitter
+- Source: /Data/ folder
+2. Embeddings:
+- Model: sentence-transformers/all-MiniLM-L6-v2
+3. Vector Store:
+- Qdrant Cloud (hsc-bot-qdrant2)
+- Similarity search (k=5)
+4. Language Model:
+- Qwen/Qwen3-0.6B via Hugging Face Transformers
 
-conda create -n 11mapp python=3.10 -y
+Setup & Run
+To start the server:
+python app.py
+Ensure:
+- PDF files exist in /Data/
+- .env (if used) is loaded properly
+- The model and dependencies are installed
+- Port 8080 is open if testing remotely
 
-conda activate llmapp
+
+
+conda create -n HSCbookbot python=3.10 -y
+
+conda activate HSCbookbot
 
 ### STEP 02 install the requirements
 

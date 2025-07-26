@@ -1,0 +1,69 @@
+# This file created by conda-build 24.5.1
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Sun Jul 14 16:24:47 2024
+# ------------------------------------------------
+
+package:
+  name: bzip2
+  version: 1.0.8
+source:
+  patches:
+    - 0001-cross.patch
+    - 0002-Windows-Make-library-name-lowercase.patch
+    - 0003-Windows-Add-dyn-lib-build-rename-libbz2_static.patch
+  sha256: ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269
+  url: https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz
+build:
+  number: '7'
+  run_exports:
+    - bzip2 >=1.0.8,<2.0a0
+  string: h2466b09_7
+requirements:
+  build:
+    - vs2019_win-64 19.29.30139 he1865b1_20
+    - vs_win-64 2019.11 he1865b1_20
+    - vswhere 3.1.7 h57928b3_0
+  host:
+    - ucrt 10.0.22621.0 h57928b3_0
+    - vc 14.3 h8a93ad2_20
+    - vc14_runtime 14.40.33810 ha82c5b3_20
+  run:
+    - ucrt >=10.0.20348.0
+    - vc >=14.2,<15
+    - vc14_runtime >=14.29.30139
+test:
+  commands:
+    - if not exist %LIBRARY_INC%\\bzlib.h exit 1
+    - if not exist %LIBRARY_LIB%\\bzip2.lib exit 1
+    - if not exist %LIBRARY_LIB%\\libbz2.lib exit 1
+    - if not exist %LIBRARY_BIN%\\libbz2.dll exit 1
+    - if not exist %LIBRARY_LIB%\\bzip2_static.lib exit 1
+    - if not exist %LIBRARY_LIB%\\libbz2_static.lib exit 1
+about:
+  description: 'Bzip2 is a freely available high-quality data compressor. It typically
+
+    compresses files to within 10% to 15% of the best available techniques,
+
+    whilst being around twice as fast at compression and six times faster
+
+    at decompression.
+
+    '
+  doc_url: http://www.bzip.org/docs.html
+  home: http://www.bzip.org/
+  license: bzip2-1.0.6
+  license_family: BSD
+  license_file: LICENSE
+  summary: high-quality data compressor
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20240714.1.1
+  recipe-maintainers:
+    - isuruf
+    - jakirkham
+    - mbargull
+    - msarahan
+    - pelson
+  remote_url: https://github.com/conda-forge/bzip2-feedstock
+  sha: e044094adb40d9ac5a8dbbaa6d0854c608a2d02a

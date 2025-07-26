@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HSC Study Chatbot</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    #chatContainer {
+      width: 500px;
+      margin: 50px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    #intro {
+      margin-bottom: 15px;
+      padding: 10px;
+      background: #e8f4ff;
+      border-left: 5px solid #2196F3;
+      color: #333;
+      font-size: 16px;
+      border-radius: 8px;
+    }
+
+    #chatlogContainer {
+      height: 250px;
+      overflow-y: auto;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 8px;
+      background: #f9f9f9;
+    }
+
+    .chatline {
+      margin: 5px 0;
+    }
+
+    #chatbox {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="chatContainer">
+  <h2>📘 HSC Study Chatbot</h2>
+  
+  <div id="intro">
+    Hello! I am your helping hand to study. Whatever question you might have from the HSC English or Bangla book, feel free to ask me. 😊
+  </div>
+
+  <div id="chatlogContainer">
+    <div class="chatline" id="chatlog7"></div>
+    <div class="chatline" id="chatlog6"></div>
+    <div class="chatline" id="chatlog5"></div>
+    <div class="chatline" id="chatlog4"></div>
+    <div class="chatline" id="chatlog3"></div>
+    <div class="chatline" id="chatlog2"></div>
+    <div class="chatline" id="chatlog1"></div>
+  </div>
+
+  <input type="text" id="chatbox" placeholder="Type your question here..." autofocus>
+</div>
+
+<script>
+  var messages = [],
+    lastUserMessage = "",
+    botMessage = "",
+    botName = 'Chatbot';
+
+  function chatbotResponse() {
+    botMessage = "Sorry, I didn't understand that.";
+
+    const msg = lastUserMessage.toLowerCase().trim();
+
+    if (msg === 'hi') {
+      botMessage = 'Whazz up haumie';
+    } else if (msg === 'what is your name') {
+      botMessage = 'My name is Chris brosky';
+    } else if (msg === 'what do you wanna get to eat') {
+      botMessage = 'Well, the hegemony of our culture... (social commentary)';
+    } else if (msg === 'hamster') {
+      botMessage = 'HAAAAMSTAAAAA!';
+    } else if (msg === 'chris we gotta go') {
+      botMessage = '.........';
+    } else if (msg === 'chris!') {
+      botMessage = 'Wait what are we doing';
+    } else if (msg === 'why were you late') {
+      botMessage = 'My mom was trippin on some shit';
+    } else if (msg === 'why were you not at school') {
+      botMessage = 'Eh, did not feel like goin';
+    } else if (msg === 'what time is it') {
+      botMessage = 'ITS MACARONI TIME';
+    } else if (msg === 'bro you wanna hang today') {
+      botMessage = 'YEEEEE HAUMIE';
+    } else if (msg === 'put on a song') {
+      botMessage = 'PUT ON SOME JUICE!';
+    } else if (msg === 'hey man can you pick us up') {
+      botMessage = 'Of course bro';
+    } else if (msg === 'dude where are you') {
+      botMessage = 'Dude I don\'t know';
+    } else if (msg === 'dude freestyle') {
+      botMessage = 'boom bomadad boom bodadad aummmmmm usuag lalalalalalla...';
+    } else if (msg === 'dude') {
+      botMessage = 'DUDE!!!!!';
+    }
+  }
+
+  function newEntry() {
+    if (document.getElementById("chatbox").value != "") {
+      lastUserMessage = document.getElementById("chatbox").value;
+      document.getElementById("chatbox").value = "";
+      document.getElementById("chatbox").placeholder = "";
+      messages.push("<b>You:</b> " + lastUserMessage);
+      chatbotResponse();
+      messages.push("<b>" + botName + ":</b> " + botMessage);
+      Speech(botMessage);
+      for (var i = 1; i < 8; i++) {
+        if (messages[messages.length - i])
+          document.getElementById("chatlog" + i).innerHTML = messages[messages.length - i];
+      }
+    }
+  }
+
+  function Speech(say) {
+    if ('speechSynthesis' in window) {
+      var utterance = new SpeechSynthesisUtterance(say);
+      speechSynthesis.speak(utterance);
+    }
+  }
+
+  document.onkeypress = function keyPress(e) {
+    var x = e || window.event;
+    var key = (x.keyCode || x.which);
+    if (key == 13 || key == 3) {
+      newEntry();
+    }
+  }
+</script>
+
+</body>
+</html>

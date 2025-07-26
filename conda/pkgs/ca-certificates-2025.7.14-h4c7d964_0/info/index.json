@@ -1,0 +1,15 @@
+{
+  "arch": null,
+  "build": "h4c7d964_0",
+  "build_number": 0,
+  "depends": [
+    "__win"
+  ],
+  "license": "ISC",
+  "name": "ca-certificates",
+  "noarch": "generic",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1752482396143,
+  "version": "2025.7.14"
+}

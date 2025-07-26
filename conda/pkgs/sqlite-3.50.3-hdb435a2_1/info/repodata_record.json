@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "hdb435a2_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "libsqlite 3.50.3 hf5d6505_1",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "features": "",
+  "fn": "sqlite-3.50.3-hdb435a2_1.conda",
+  "license": "blessing",
+  "md5": "0f0daa86a874299c8de889f821205174",
+  "name": "sqlite",
+  "platform": "win32",
+  "sha256": "9b15cabf08ee471f2591903250b5815d894ba4759e726f082b1426600c99d1aa",
+  "size": 401002,
+  "subdir": "win-64",
+  "timestamp": 1753262805625,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/sqlite-3.50.3-hdb435a2_1.conda",
+  "version": "3.50.3"
+}

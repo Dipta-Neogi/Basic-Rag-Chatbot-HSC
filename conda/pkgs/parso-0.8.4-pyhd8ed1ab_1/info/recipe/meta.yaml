@@ -1,0 +1,79 @@
+# This file created by conda-build 24.11.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Dec  4 00:13:20 2024
+# ------------------------------------------------
+
+package:
+  name: parso
+  version: 0.8.4
+source:
+  fn: parso-0.8.4.tar.gz
+  sha256: eb3a7b58240fb99099a345571deecc0f9540ea5f4dd2fe14c2a99d6b281ab92d
+  url: https://pypi.org/packages/source/p/parso/parso-0.8.4.tar.gz
+build:
+  noarch: python
+  number: '1'
+  script: /home/conda/feedstock_root/build_artifacts/parso_1733271261340/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+    -m pip install . -vv
+  string: pyhd8ed1ab_1
+requirements:
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - bzip2 1.0.8 h4bc722e_7
+    - ca-certificates 2024.8.30 hbcca054_0
+    - ld_impl_linux-64 2.43 h712a8e2_2
+    - libffi 3.4.2 h7f98852_5
+    - libgcc 14.2.0 h77fa898_1
+    - libgcc-ng 14.2.0 h69a702a_1
+    - libgomp 14.2.0 h77fa898_1
+    - libnsl 2.0.1 hd590300_0
+    - libsqlite 3.47.0 hadc24fc_1
+    - libuuid 2.38.1 h0b41bf4_0
+    - libxcrypt 4.4.36 hd590300_1
+    - libzlib 1.3.1 hb9d3cd8_2
+    - ncurses 6.5 he02047a_1
+    - openssl 3.4.0 hb9d3cd8_0
+    - pip 24.3.1 pyh8b19718_0
+    - python 3.9.20 h13acc7a_1_cpython
+    - readline 8.2 h8228510_1
+    - setuptools 75.6.0 pyhff2d567_1
+    - tk 8.6.13 noxft_h4845f30_101
+    - tzdata 2024b hc8b5060_0
+    - wheel 0.45.1 pyhd8ed1ab_1
+    - xz 5.2.6 h166bdaf_0
+  run:
+    - python >=3.9
+test:
+  commands:
+    - pip check
+  imports:
+    - parso
+    - parso.pgen2
+    - parso.python
+  requires:
+    - pip
+    - python 3.9.*
+about:
+  description: 'Parso is a Python parser that supports error recovery and round-trip
+    parsing for different Python versions (in multiple Python versions).
+
+    Parso is also able to list multiple syntax errors in your python file.
+
+    '
+  dev_url: https://github.com/davidhalter/parso
+  doc_url: https://parso.readthedocs.io/en/latest/
+  home: https://github.com/davidhalter/parso
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.txt
+  summary: A Python Parser
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20241203.3.1
+  recipe-maintainers:
+    - iron0012
+    - synapticarbors
+  remote_url: https://github.com/conda-forge/parso-feedstock
+  sha: 7c96f10f02b1436d66a74e2847220110817141f3

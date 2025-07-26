@@ -1,0 +1,30 @@
+{
+  "arch": "x86_64",
+  "build": "py310h656833d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "libsodium >=1.0.20,<1.0.21.0a0",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139",
+    "zeromq >=4.3.5,<4.3.6.0a0"
+  ],
+  "features": "",
+  "fn": "pyzmq-27.0.0-py310h656833d_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "3a89550776350a08c0763ee60a0f07dd",
+  "name": "pyzmq",
+  "platform": "win32",
+  "sha256": "d3ead56c27a0aba2432343cde83aa4bc7948cf525ace92f676043c25a87b224b",
+  "size": 320154,
+  "subdir": "win-64",
+  "timestamp": 1749898868544,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pyzmq-27.0.0-py310h656833d_0.conda",
+  "version": "27.0.0"
+}

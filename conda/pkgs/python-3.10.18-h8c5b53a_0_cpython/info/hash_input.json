@@ -1,0 +1,14 @@
+{
+  "channel_targets": "conda-forge main",
+  "openssl": "3",
+  "cxx_compiler": "vs2019",
+  "sqlite": "3",
+  "target_platform": "win-64",
+  "bzip2": "1",
+  "expat": "2",
+  "c_stdlib": "vs",
+  "zlib": "1",
+  "tk": "8.6",
+  "liblzma_devel": "5",
+  "c_compiler": "vs2019"
+}

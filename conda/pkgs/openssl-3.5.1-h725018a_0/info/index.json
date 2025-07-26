@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "h725018a_0",
+  "build_number": 0,
+  "depends": [
+    "ca-certificates",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "name": "openssl",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1751392489008,
+  "version": "3.5.1"
+}

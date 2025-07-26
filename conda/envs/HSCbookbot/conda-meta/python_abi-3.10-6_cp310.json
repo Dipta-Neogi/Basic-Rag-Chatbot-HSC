@@ -1,0 +1,36 @@
+{
+  "build": "6_cp310",
+  "build_number": 6,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [
+    "python 3.10.* *_cpython"
+  ],
+  "depends": [],
+  "extracted_package_dir": "e:\\interviews\\HSC chatbot\\Basic-Rag-Chatbot-HSC\\conda\\pkgs\\python_abi-3.10-6_cp310",
+  "features": "",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "python_abi-3.10-6_cp310.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "e:\\interviews\\HSC chatbot\\Basic-Rag-Chatbot-HSC\\conda\\pkgs\\python_abi-3.10-6_cp310",
+    "type": 1
+  },
+  "md5": "041cd0bfc8be015fbd78b5b2fe9b168e",
+  "name": "python_abi",
+  "package_tarball_full_path": "e:\\interviews\\HSC chatbot\\Basic-Rag-Chatbot-HSC\\conda\\pkgs\\python_abi-3.10-6_cp310.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "python_abi",
+  "sha256": "27015f67c4cea426e16cdc8054a1a3f9e78825c2e9b8a594a34e0feb9f7de606",
+  "size": 7381,
+  "subdir": "win-64",
+  "timestamp": 1743483191931,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/python_abi-3.10-6_cp310.conda",
+  "version": "3.10"
+}

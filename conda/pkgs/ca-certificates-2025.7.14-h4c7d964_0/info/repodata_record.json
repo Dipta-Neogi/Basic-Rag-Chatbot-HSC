@@ -1,0 +1,23 @@
+{
+  "build": "h4c7d964_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "__win"
+  ],
+  "features": "",
+  "fn": "ca-certificates-2025.7.14-h4c7d964_0.conda",
+  "license": "ISC",
+  "md5": "40334594f5916bc4c0a0313d64bfe046",
+  "name": "ca-certificates",
+  "noarch": "generic",
+  "package_type": "noarch_generic",
+  "sha256": "a7fe9bce8a0f9f985d44940ec13a297df571ee70fb2264b339c62fa190b2c437",
+  "size": 155882,
+  "subdir": "noarch",
+  "timestamp": 1752482396143,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2025.7.14-h4c7d964_0.conda",
+  "version": "2025.7.14"
+}

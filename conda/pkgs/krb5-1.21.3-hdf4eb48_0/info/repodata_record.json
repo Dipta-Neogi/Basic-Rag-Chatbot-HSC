@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "hdf4eb48_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "openssl >=3.3.1,<4.0a0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "features": "",
+  "fn": "krb5-1.21.3-hdf4eb48_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "31aec030344e962fbd7dbbbbd68e60a9",
+  "name": "krb5",
+  "platform": "win32",
+  "sha256": "18e8b3430d7d232dad132f574268f56b3eb1a19431d6d5de8c53c29e6c18fa81",
+  "size": 712034,
+  "subdir": "win-64",
+  "timestamp": 1719463874284,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/krb5-1.21.3-hdf4eb48_0.conda",
+  "version": "1.21.3"
+}

@@ -1,0 +1,16 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "description": "IPython provides a rich architecture for interactive computing with\na powerful interactive shell, a kernel for Jupyter, high performance\ntools for parallel computing, and more.",
+  "dev_url": "https://github.com/ipython/ipython",
+  "doc_url": "https://ipython.readthedocs.io/",
+  "extra": {
+    "flow_run_id": "azure_20250531.6.1",
+    "remote_url": "https://github.com/conda-forge/ipython-feedstock",
+    "sha": "f582bcdc4e60ca1364017bd59904ee952e639678"
+  },
+  "home": "https://ipython.org/",
+  "license": "BSD-3-Clause",
+  "summary": "IPython: Productive Interactive Computing"
+}

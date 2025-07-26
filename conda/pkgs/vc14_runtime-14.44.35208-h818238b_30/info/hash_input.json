@@ -1,0 +1,10 @@
+{
+  "cross_target_platform": "win-64",
+  "vsyear": "2022",
+  "vsver": "17",
+  "runtime_version": "14.44.35208",
+  "update_version": "14",
+  "channel_targets": "conda-forge main",
+  "cl_version": "19.44.35207",
+  "target_platform": "win-64"
+}

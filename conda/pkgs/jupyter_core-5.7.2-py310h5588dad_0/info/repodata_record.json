@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "py310h5588dad_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "platformdirs >=2.5",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "pywin32 >=300",
+    "traitlets >=5.3"
+  ],
+  "features": "",
+  "fn": "jupyter_core-5.7.2-py310h5588dad_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "6646c59c6c096e0b99c53dc9d3deaada",
+  "name": "jupyter_core",
+  "platform": "win32",
+  "sha256": "220a6fe571d3e9a5b5f4467d7f2fb22080b96f7143c9b2703528032528338d50",
+  "size": 97082,
+  "subdir": "win-64",
+  "timestamp": 1710257770270,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/jupyter_core-5.7.2-py310h5588dad_0.conda",
+  "version": "5.7.2"
+}

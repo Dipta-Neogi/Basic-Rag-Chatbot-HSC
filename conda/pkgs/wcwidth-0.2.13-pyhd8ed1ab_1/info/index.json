@@ -1,0 +1,15 @@
+{
+  "arch": null,
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "depends": [
+    "python >=3.9"
+  ],
+  "license": "MIT",
+  "name": "wcwidth",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1733231433877,
+  "version": "0.2.13"
+}

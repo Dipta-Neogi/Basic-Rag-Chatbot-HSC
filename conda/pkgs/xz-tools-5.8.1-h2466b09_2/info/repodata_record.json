@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "h2466b09_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [
+    "xz 5.8.1.*"
+  ],
+  "depends": [
+    "liblzma 5.8.1 h2466b09_2",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "features": "",
+  "fn": "xz-tools-5.8.1-h2466b09_2.conda",
+  "license": "0BSD AND LGPL-2.1-or-later",
+  "md5": "e1b62ec0457e6ba10287a49854108fdb",
+  "name": "xz-tools",
+  "platform": "win32",
+  "sha256": "38712f0e62f61741ab69d7551fa863099f5be769bdf9fdbc28542134874b4e88",
+  "size": 67419,
+  "subdir": "win-64",
+  "timestamp": 1749230666460,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/xz-tools-5.8.1-h2466b09_2.conda",
+  "version": "5.8.1"
+}

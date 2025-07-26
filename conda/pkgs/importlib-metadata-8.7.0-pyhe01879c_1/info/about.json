@@ -1,0 +1,13 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "extra": {
+    "flow_run_id": "azure_20250522.10.1",
+    "remote_url": "https://github.com/conda-forge/importlib_metadata-feedstock",
+    "sha": "76dfb4db463e06ce8c8cc2921df5382aedd4a2bf"
+  },
+  "home": "https://github.com/python/importlib_metadata",
+  "license": "Apache-2.0",
+  "summary": "A library to access the metadata for a Python package"
+}

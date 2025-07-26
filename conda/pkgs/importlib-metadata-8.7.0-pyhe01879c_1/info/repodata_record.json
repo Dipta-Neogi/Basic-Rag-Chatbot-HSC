@@ -1,0 +1,26 @@
+{
+  "build": "pyhe01879c_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9",
+    "zipp >=3.20",
+    "python"
+  ],
+  "features": "",
+  "fn": "importlib-metadata-8.7.0-pyhe01879c_1.conda",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "md5": "63ccfdc3a3ce25b027b8767eb722fca8",
+  "name": "importlib-metadata",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "c18ab120a0613ada4391b15981d86ff777b5690ca461ea7e9e49531e8f374745",
+  "size": 34641,
+  "subdir": "noarch",
+  "timestamp": 1747934053147,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/importlib-metadata-8.7.0-pyhe01879c_1.conda",
+  "version": "8.7.0"
+}

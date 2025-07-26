@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "hc70643c_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "features": "",
+  "fn": "libsodium-1.0.20-hc70643c_0.conda",
+  "license": "ISC",
+  "md5": "198bb594f202b205c7d18b936fa4524f",
+  "name": "libsodium",
+  "platform": "win32",
+  "sha256": "7bcb3edccea30f711b6be9601e083ecf4f435b9407d70fc48fbcf9e5d69a0fc6",
+  "size": 202344,
+  "subdir": "win-64",
+  "timestamp": 1716828757533,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libsodium-1.0.20-hc70643c_0.conda",
+  "version": "1.0.20"
+}

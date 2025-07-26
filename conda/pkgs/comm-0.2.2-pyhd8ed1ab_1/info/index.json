@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "depends": [
+    "python >=3.9",
+    "traitlets >=5.3"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "comm",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1733503053903,
+  "version": "0.2.2"
+}

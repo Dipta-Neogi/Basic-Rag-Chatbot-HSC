@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "py310h5588dad_0",
+  "build_number": 0,
+  "depends": [
+    "platformdirs >=2.5",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "pywin32 >=300",
+    "traitlets >=5.3"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "jupyter_core",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1710257770270,
+  "version": "5.7.2"
+}

@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "depends": [
+    "python >=3.9",
+    "traitlets"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "matplotlib-inline",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1733417051523,
+  "version": "0.1.7"
+}

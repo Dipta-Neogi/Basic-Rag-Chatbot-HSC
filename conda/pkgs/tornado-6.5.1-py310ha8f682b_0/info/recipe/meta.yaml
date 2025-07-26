@@ -1,0 +1,86 @@
+# This file created by conda-build 25.4.2
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Fri May 23 12:27:20 2025
+# ------------------------------------------------
+
+package:
+  name: tornado
+  version: 6.5.1
+source:
+  sha256: 84ceece391e8eb9b2b95578db65e920d2a61070260594819589609ba9bc6308c
+  url: https://pypi.org/packages/source/t/tornado/tornado-6.5.1.tar.gz
+build:
+  number: '0'
+  script: D:\\bld\\tornado_1748003317080\\_h_env\\python.exe -m pip install . -vv
+    --no-deps --no-build-isolation
+  string: py310ha8f682b_0
+requirements:
+  build:
+    - vs2019_win-64 19.29.30139 h7dcff83_26
+    - vs_win-64 2019.11 h7dcff83_26
+    - vswhere 3.1.7 h40126e0_1
+  host:
+    - bzip2 1.0.8 h2466b09_7
+    - ca-certificates 2025.4.26 h4c7d964_0
+    - libexpat 2.7.0 he0c23c2_0
+    - libffi 3.4.6 h537db12_1
+    - liblzma 5.8.1 h2466b09_1
+    - libsqlite 3.49.2 h67fdade_0
+    - libzlib 1.3.1 h2466b09_2
+    - openssl 3.5.0 ha4e3fda_1
+    - pip 25.1.1 pyh8b19718_0
+    - python 3.10.17 h8c5b53a_0_cpython
+    - setuptools 80.8.0 pyhff2d567_0
+    - tk 8.6.13 h5226925_1
+    - tzdata 2025b h78e105d_0
+    - ucrt 10.0.22621.0 h57928b3_1
+    - vc 14.3 h2b53caa_26
+    - vc14_runtime 14.42.34438 hfd919c2_26
+    - wheel 0.45.1 pyhd8ed1ab_1
+  run:
+    - python >=3.10,<3.11.0a0
+    - python_abi 3.10.* *_cp310
+    - ucrt >=10.0.20348.0
+    - vc >=14.2,<15
+    - vc14_runtime >=14.29.30139
+test:
+  commands:
+    - pip check
+  imports:
+    - tornado
+    - tornado.gen
+    - tornado.netutil
+    - tornado.platform
+    - tornado.test
+  requires:
+    - pip
+about:
+  description: 'Tornado is a Python web framework and asynchronous networking library.
+
+    By using non-blocking network I/O, Tornado can scale to tens of thousands
+
+    of open connections, making it ideal for long polling, WebSockets, and
+
+    other applications that require a long-lived connection to each user.
+
+    '
+  dev_url: https://github.com/tornadoweb/tornado
+  doc_source_url: https://github.com/tornadoweb/tornado/blob/stable/docs/index.rst
+  doc_url: https://www.tornadoweb.org/en/stable/
+  home: https://www.tornadoweb.org/
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE
+  license_url: https://www.apache.org/licenses/LICENSE-2.0
+  summary: A Python web framework and asynchronous networking library, originally
+    developed at FriendFeed.
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20250523.1.1
+  recipe-maintainers:
+    - jakirkham
+    - ocefpaf
+    - pelson
+  remote_url: https://github.com/conda-forge/tornado-feedstock
+  sha: a6e5cb44923b2b721a8ae915fa7e176dc43e09c2

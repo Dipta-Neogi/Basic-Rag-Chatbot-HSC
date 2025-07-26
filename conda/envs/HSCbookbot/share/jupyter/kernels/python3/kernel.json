@@ -1,0 +1,14 @@
+{
+ "argv": [
+  "e:/interviews/HSC chatbot/Basic-Rag-Chatbot-HSC/conda/envs/HSCbookbot\\python.exe",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3 (ipykernel)",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+}

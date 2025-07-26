@@ -1,0 +1,12 @@
+- python:
+    imports:
+    - debugpy
+    - debugpy.adapter
+    - debugpy.common
+    - debugpy.launcher
+    - debugpy.server
+- script:
+    content: pip check
+  requirements:
+    run:
+    - pip

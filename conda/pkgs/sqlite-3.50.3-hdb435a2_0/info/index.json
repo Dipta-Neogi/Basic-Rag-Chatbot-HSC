@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "hdb435a2_0",
+  "build_number": 0,
+  "depends": [
+    "libsqlite 3.50.3 hf5d6505_0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "license": "Unlicense",
+  "name": "sqlite",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1752825196364,
+  "version": "3.50.3"
+}

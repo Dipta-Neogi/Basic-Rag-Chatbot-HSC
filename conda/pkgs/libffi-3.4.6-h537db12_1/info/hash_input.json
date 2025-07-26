@@ -1,0 +1,7 @@
+{
+  "target_platform": "win-64",
+  "c_stdlib": "vs",
+  "libffi": "3.4",
+  "channel_targets": "conda-forge main",
+  "c_compiler": "vs2019"
+}

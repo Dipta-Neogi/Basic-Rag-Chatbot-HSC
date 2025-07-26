@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "py310ha8f682b_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "features": "",
+  "fn": "tornado-6.5.1-py310ha8f682b_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "4c8f599990e386f3a0aba3f3bd8608da",
+  "name": "tornado",
+  "platform": "win32",
+  "sha256": "2a922fc165be81c2121cbd0ba5db6dfcbb69ebdc4e48b0f6fac40fde954602e0",
+  "size": 664938,
+  "subdir": "win-64",
+  "timestamp": 1748003818917,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/tornado-6.5.1-py310ha8f682b_0.conda",
+  "version": "6.5.1"
+}

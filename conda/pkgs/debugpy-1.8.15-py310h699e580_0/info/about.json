@@ -1,0 +1,14 @@
+{
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/"
+  ],
+  "dev_url": "https://github.com/microsoft/debugpy",
+  "extra": {
+    "flow_run_id": "azure_20250718.4.1",
+    "remote_url": "https://github.com/conda-forge/debugpy-feedstock",
+    "sha": "433ed2cdff11cad22fe97e8a81bfb6f1f4f1b542"
+  },
+  "home": "https://github.com/Microsoft/debugpy",
+  "license": "MIT",
+  "summary": "An implementation of the Debug Adapter Protocol for Python"
+}

@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "6_cp310",
+  "build_number": 6,
+  "constrains": [
+    "python 3.10.* *_cpython"
+  ],
+  "depends": [],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "python_abi",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1743483191931,
+  "version": "3.10"
+}
