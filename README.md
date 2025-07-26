@@ -1,3 +1,4 @@
+<img width="760" height="657" alt="image" src="https://github.com/user-attachments/assets/8319b618-4b6e-4916-bd2e-b2e734f47892" />
 
 # Basic-Rag-Chatbot-HSC
 For HSC students who wants help with their studies
