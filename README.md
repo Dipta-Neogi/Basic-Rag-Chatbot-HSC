@@ -1,4 +1,4 @@
-<img width="760" height="657" alt="image" src="https://github.com/user-attachments/assets/611323fc-0276-4621-a3c6-9cfc4af018ba" />
+
 # Basic-Rag-Chatbot-HSC
 For HSC students who wants help with their studies
 Backend Workflow
